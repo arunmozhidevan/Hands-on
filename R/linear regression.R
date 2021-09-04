@@ -10,4 +10,4 @@ plot(mouse.data$weight, mouse.data$size)
 mouse.regression <- lm(size ~ weight, data = mouse.data)
 summary(mouse.regression)
 
-abline(mouse.regression, col='red')
+abline(mouse.regression, col='red')m  
